@@ -84,3 +84,42 @@ const predpoved = {
     popis_pocasi: "Neděle bude krásný slunečný den s teplotami mezi 18°C ráno a 26°C odpoledne. Nebude žádná oblačnost, a tak můžete očekávat celodenní slunečné počasí. Rychlost větru dosáhne 9 km/h a atmosférický tlak bude 1017 hPa.",
   },
 };
+
+
+/*const predpovedId = window.location.hash.slice(1);
+const predpovedData = predpoved.find((den) => den.id === predpovedId);
+const mainElement = document.querySelector('main');
+
+mainElement.innerHTML += `
+  <article>
+    <h2>${predpovedData.title}</h2>
+    <p>${predpovedData.datum}</p>
+    <p>${predpovedData.denni_teplota}</p>
+    <p>${predpovedData.denni_teplota}</p>
+  </article>
+<a href="/index.html">Zpět na obsah</a>`*/
+
+  /*const predpovedId = window.location.hash.slice(1);
+const predpovedData = predpoved.find((den) => den.id === predpovedId)
+const mainElement = document.querySelector ('main');
+mainElement.innerHTML += `
+    <article>
+     <h2>${predpovedData.den}</h2>
+     <p>${predpovedData.datum}</p>
+     <p>${predpovedData.denni_teplota}</p>
+      <p>${predpovedData.denni_teplota}</p>
+    </article>
+     <a href="/index.html">Zpět na obsah</a>`*/
+
+ /*    const mainElement = document.querySelector('main')
+predpoved.forEach((den) => {
+    mainElement.innerHTML += `
+    <div class = "day-card">
+    <h2>${den.den}</h2>
+    <p>${den.denni_teplota}°C</p>
+    <p>${den.stav_pocasi}</p>
+    <a href="detail.html#${den.id}">Detail</a>
+    </div>
+    `
+})*/
+
